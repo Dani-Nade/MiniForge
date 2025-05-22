@@ -32,11 +32,8 @@
    Put `MiniLang.g4` in the project root, then run:
 
    ```
-   java -jar antlr-4.13.2-complete.jar \
-     -Dlanguage=Python3 \
-     -visitor \
-     -no-listener \
-     -o . MiniLang.g4
+   java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -visitor -no-listener -o . MiniLang.g4
+
    ```
 
    This emits:
